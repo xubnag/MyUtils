@@ -1,5 +1,6 @@
-package imageDispose;
+package imageDispose.impl;
 
+import imageDispose.service.ImageDispose;
 import org.apache.commons.lang3.StringUtils;
 
 import java.awt.*;
@@ -10,7 +11,7 @@ import java.awt.*;
  * @date 2023/1/15 10:51
  * @Description 私有云图片处理实现类
  */
-public class PrivateImageDispose implements ImageDispose{
+public class PrivateImageDispose implements ImageDispose {
     @Override
     public String upload(Image image, String bucketName) {
         if(StringUtils.isNotEmpty(bucketName)){

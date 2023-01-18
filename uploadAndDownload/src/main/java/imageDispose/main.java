@@ -1,5 +1,10 @@
 package imageDispose;
 
+import imageDispose.factory.ImageDisposeFactory;
+import imageDispose.service.ImageDispose;
+
+import java.awt.*;
+
 /**
  * @author XuBang
  * @version 1.0
@@ -7,7 +12,13 @@ package imageDispose;
  * @Description
  */
 public class main {
+
     public static void main(String[] args) {
-        System.out.println("哈哈哈");
+        ImageDispose imageDispose = ImageDisposeFactory.newInstance("");
+        String upload = imageDispose.upload(new Image(), "");
     }
+
+
+
+
 }

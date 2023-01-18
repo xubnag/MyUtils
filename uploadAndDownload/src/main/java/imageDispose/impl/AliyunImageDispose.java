@@ -1,6 +1,7 @@
-package imageDispose;
+package imageDispose.impl;
 
 
+import imageDispose.service.ImageDispose;
 import org.apache.commons.lang3.StringUtils;
 
 import java.awt.*;

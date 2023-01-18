@@ -1,4 +1,4 @@
-package imageDispose;
+package imageDispose.service;
 
 import java.awt.*;
 
